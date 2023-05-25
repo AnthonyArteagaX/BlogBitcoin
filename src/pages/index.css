@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.botton {
+    @apply bg-gris text-black hover:bg-grisa;
+}
+
+.headert {
+    @apply flex items-center flex-wrap py-4 ml-auto bg-gris;
+}
+

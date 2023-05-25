@@ -1,15 +1,117 @@
 ---
+import "./index.css";
+
+import ComponenteAstro from "../Components/Header.astro";
 ---
 
+<!DOCTYPE html>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="h-14 bg-gradient-to-r">
+		<ComponenteAstro />
+
+		<article>
+			<h1 class="ml-40 px-20 font-bold text-xl py-2">
+				Historia de Bitcoin
+			</h1>
+
+			<div class="px-40 mx-10 my-5 text-justify">
+				<div class="w-1/5 float-left">
+					<img src="btcp.png" />
+				</div>
+				<p>
+					Bitcoin es una criptomoneda descentralizada que fue creada
+					en 2009 por una persona o grupo de personas bajo el
+					seudónimo de Satoshi Nakamoto. La historia de Bitcoin
+					comienza con un artículo publicado por Nakamoto en 2008,
+					titulado "Bitcoin: A Peer-to-Peer Electronic Cash System".
+					En el artículo, Nakamoto describió un sistema de efectivo
+					digital que no dependía de intermediarios financieros como
+					bancos o gobiernos y que permitía transacciones anónimas y
+					seguras entre partes sin la necesidad de confiar en una
+					autoridad central.
+				</p>
+				<p>
+					El primer bloque de la cadena de bloques de Bitcoin,
+					conocido como "bloque génesis", fue minado el 3 de enero de
+					2009, y desde entonces ha habido numerosas bifurcaciones y
+					actualizaciones de la cadena de bloques de Bitcoin. La
+					cadena de bloques de Bitcoin es un registro público de todas
+					las transacciones de Bitcoin que se han realizado desde el
+					inicio de la red.
+				</p>
+				<p>
+					En sus primeros días, Bitcoin fue utilizado principalmente
+					por entusiastas de la criptografía y de la tecnología, pero
+					con el tiempo ha ganado popularidad y ha sido adoptado por
+					una variedad de individuos y empresas. La naturaleza
+					descentralizada de Bitcoin ha permitido la creación de una
+					amplia gama de aplicaciones, incluyendo sistemas de pago en
+					línea, contratos inteligentes, sistemas de votación
+					electrónica y más.
+				</p>
+			</div>
+
+			<h1 class="ml-40 px-20 text-px3 font-bold text-xl">
+				Acontecimientos importantes de bitcoin
+			</h1>
+			<div class="px-40 mx-10 my-5 text-justify">
+				<h2>2008</h2>
+				<p>
+					Se publica el libro blanco de Bitcoin, escrito por una
+					persona o grupo de personas bajo el seudónimo de Satoshi
+					Nakamoto ("Bitcoin: A Peer-to-Peer Electronic Cash System").
+					En él se describe por primera vez la tecnología blockchain y
+					se propone la creación de una moneda digital
+					descentralizada.
+				</p>
+
+				<h2>2009</h2>
+				<p>
+					Se lanza la red de Bitcoin y se empiezan a minar los
+					primeros bloques de la cadena de bloques. También se
+					realizan las primeras transacciones con bitcoins.
+				</p>
+
+				<h2>2010</h2>
+				<p>
+					Se realiza la primera transacción conocida en la que se
+					intercambian bitcoins por bienes reales. En este caso, se
+					compran dos pizzas por 10.000 bitcoins.
+				</p>
+
+				<h2>2011</h2>
+				<p>
+					Se crean las primeras casas de cambio de bitcoins, como
+					Mt.Gox, que se convierte en la más importante del mundo.
+				</p>
+
+				<h2>2013</h2>
+				<p>
+					El precio de un bitcoin alcanza los 1.000 dólares por
+					primera vez, pero luego sufre una fuerte caída. También se
+					produce el cierre de Mt.Gox después de un hackeo que provoca
+					la pérdida de cientos de millones de dólares en bitcoins.
+				</p>
+
+				<h2>2017</h2>
+				<p>
+					El precio de un bitcoin se dispara y alcanza un máximo
+					histórico de casi 20.000 dólares en diciembre. También se
+					producen divisiones en la comunidad de Bitcoin que dan lugar
+					a la creación de nuevas criptomonedas, como Bitcoin Cash y
+					Bitcoin Gold.
+				</p>
+
+				<h2>2020</h2>
+				<p>
+					La pandemia de COVID-19 hace que muchos inversores busquen
+					refugio en activos digitales como el bitcoin. El precio de
+					un bitcoin aumenta de alrededor de 7.000 dólares en enero a
+					más de 60.000 dólares en abril.
+				</p>
+			</div>
+		</article>
 	</body>
 </html>
